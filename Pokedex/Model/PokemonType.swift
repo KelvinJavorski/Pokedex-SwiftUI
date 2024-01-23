@@ -1,11 +1,3 @@
-//
-//  PokemonType.swift
-//  Pokedex
-//
-//  Created by Kelvin Javorski Soares on 23/01/24.
-//
-
-import Foundation
 import SwiftUI
 
 enum PokemonType: String, Codable, CaseIterable {
@@ -31,41 +23,41 @@ enum PokemonType: String, Codable, CaseIterable {
     var color: Color {
         switch self {
         case .normal:
-            return Color(hex: "A8A77A")
+            return Color(hex: "C4C3A8")
         case .fire:
-            return Color(hex: "EE8130")
+            return Color(hex: "F7B396")
         case .water:
-            return Color(hex: "6390F0")
+            return Color(hex: "91ABE4")
         case .electric:
-            return Color(hex: "F7D02C")
+            return Color(hex: "FAE8A5")
         case .grass:
-            return Color(hex: "7AC74C")
+            return Color(hex: "A4DCA2")
         case .ice:
-            return Color(hex: "96D9D6")
+            return Color(hex: "C8EFEA")
         case .fighting:
-            return Color(hex: "C22E28")
+            return Color(hex: "E2948E")
         case .poison:
-            return Color(hex: "A33EA1")
+            return Color(hex: "CDAED9")
         case .ground:
-            return Color(hex: "E2BF65")
+            return Color(hex: "EAD7A2")
         case .flying:
-            return Color(hex: "A98FF3")
+            return Color(hex: "C2BBE4")
         case .psychic:
-            return Color(hex: "F95587")
+            return Color(hex: "FAB9C6")
         case .bug:
-            return Color(hex: "A6B91A")
+            return Color(hex: "C8DCAA")
         case .rock:
-            return Color(hex: "B6A136")
+            return Color(hex: "D4C69E")
         case .ghost:
-            return Color(hex: "735797")
+            return Color(hex: "A995C4")
         case .dark:
-            return Color(hex: "705746")
+            return Color(hex: "A6988F")
         case .dragon:
-            return Color(hex: "6F35FC")
+            return Color(hex: "BAAAFD")
         case .steel:
-            return Color(hex: "B7B7CE")
+            return Color(hex: "C7C7DA")
         case .fairy:
-            return Color(hex: "D685AD")
+            return Color(hex: "E3B9D9")
         }
     }
 }

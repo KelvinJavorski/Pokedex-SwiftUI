@@ -13,6 +13,7 @@ struct Pokemon: Codable, Identifiable, Hashable, Equatable {
     var sprites: PokemonSprites?
     let url: String
     var types: [TypeElement]?
+
     var color: Color? {
          guard let mainType = types?.first?.type.name else {
              // Se não houver tipo, retorne uma cor padrão ou nil, conforme apropriado para sua aplicação
