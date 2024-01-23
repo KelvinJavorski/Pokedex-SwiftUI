@@ -18,11 +18,16 @@
 		B61932162B4708A30082819A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61932152B4708A30082819A /* Pokemon.swift */; };
 		B619321A2B4709B40082819A /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61932192B4709B40082819A /* PokemonCardView.swift */; };
 		B619321D2B4720AF0082819A /* PokemonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B619321C2B4720AF0082819A /* PokemonDetailView.swift */; };
+		B63C63CE2B6017D60094315A /* PokemonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C63CD2B6017D60094315A /* PokemonType.swift */; };
 		B6BAAEFA2B50409E00E1FC7B /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BAAEF92B50409E00E1FC7B /* BottomBarView.swift */; };
 		B6F941F62B504C7700724AD4 /* HomeGridViewStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F941F52B504C7700724AD4 /* HomeGridViewStack.swift */; };
 		B6F941F82B506DEF00724AD4 /* PokemonAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F941F72B506DEF00724AD4 /* PokemonAboutView.swift */; };
 		B6F941FB2B506F6400724AD4 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F941FA2B506F6400724AD4 /* XDismissButton.swift */; };
 		B6F941FD2B50717F00724AD4 /* PokemonTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F941FC2B50717F00724AD4 /* PokemonTypeView.swift */; };
+		B6F941FF2B5080B500724AD4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F941FE2B5080B500724AD4 /* ImageLoader.swift */; };
+		B6F942032B508DFC00724AD4 /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F942022B508DFC00724AD4 /* Sample.swift */; };
+		B6F942052B50978600724AD4 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F942042B50978600724AD4 /* PokemonViewModel.swift */; };
+		B6F942072B509BE700724AD4 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F942062B509BE700724AD4 /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +62,16 @@
 		B61932152B4708A30082819A /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		B61932192B4709B40082819A /* PokemonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardView.swift; sourceTree = "<group>"; };
 		B619321C2B4720AF0082819A /* PokemonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetailView.swift; sourceTree = "<group>"; };
+		B63C63CD2B6017D60094315A /* PokemonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonType.swift; sourceTree = "<group>"; };
 		B6BAAEF92B50409E00E1FC7B /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
 		B6F941F52B504C7700724AD4 /* HomeGridViewStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGridViewStack.swift; sourceTree = "<group>"; };
 		B6F941F72B506DEF00724AD4 /* PokemonAboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAboutView.swift; sourceTree = "<group>"; };
 		B6F941FA2B506F6400724AD4 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		B6F941FC2B50717F00724AD4 /* PokemonTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTypeView.swift; sourceTree = "<group>"; };
+		B6F941FE2B5080B500724AD4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B6F942022B508DFC00724AD4 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		B6F942042B50978600724AD4 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		B6F942062B509BE700724AD4 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				B61932152B4708A30082819A /* Pokemon.swift */,
+				B6F942042B50978600724AD4 /* PokemonViewModel.swift */,
+				B63C63CD2B6017D60094315A /* PokemonType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -170,6 +182,9 @@
 				B61932112B4707F10082819A /* HomeGridView.swift */,
 				B61932132B47080D0082819A /* HomeGridViewModel.swift */,
 				B6F941F52B504C7700724AD4 /* HomeGridViewStack.swift */,
+				B6F941FE2B5080B500724AD4 /* ImageLoader.swift */,
+				B6F942022B508DFC00724AD4 /* Sample.swift */,
+				B6F942062B509BE700724AD4 /* URLImage.swift */,
 			);
 			path = HomeGridView;
 			sourceTree = "<group>";
@@ -342,14 +357,19 @@
 			files = (
 				B61932162B4708A30082819A /* Pokemon.swift in Sources */,
 				B619321A2B4709B40082819A /* PokemonCardView.swift in Sources */,
+				B6F941FF2B5080B500724AD4 /* ImageLoader.swift in Sources */,
 				B6F941F62B504C7700724AD4 /* HomeGridViewStack.swift in Sources */,
 				B61932142B47080D0082819A /* HomeGridViewModel.swift in Sources */,
+				B6F942032B508DFC00724AD4 /* Sample.swift in Sources */,
 				B61932122B4707F10082819A /* HomeGridView.swift in Sources */,
+				B63C63CE2B6017D60094315A /* PokemonType.swift in Sources */,
 				B602A0B92B46FDE60079E5C4 /* PokedexApp.swift in Sources */,
 				B6F941FD2B50717F00724AD4 /* PokemonTypeView.swift in Sources */,
 				B6BAAEFA2B50409E00E1FC7B /* BottomBarView.swift in Sources */,
+				B6F942052B50978600724AD4 /* PokemonViewModel.swift in Sources */,
 				B6F941F82B506DEF00724AD4 /* PokemonAboutView.swift in Sources */,
 				B619321D2B4720AF0082819A /* PokemonDetailView.swift in Sources */,
+				B6F942072B509BE700724AD4 /* URLImage.swift in Sources */,
 				B6F941FB2B506F6400724AD4 /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
